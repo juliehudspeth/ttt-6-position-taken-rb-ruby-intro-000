@@ -1,5 +1,5 @@
 def position_taken?(board,index)
-  if board == " " or "" or "nil" && index == "X" or "O"
+  if board == " " && index == "X"
     board = []
-    index = 0
+    index = X
   end
